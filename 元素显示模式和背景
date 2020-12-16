@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .name {
+            text-align: center;
+        }
+
+        .nav a {
+            display: inline-block;
+            width: 200px;
+            height: 150px;
+            margin-left: 50px;
+            font-size: 50px;
+            background-color: pink;
+            text-align: center;
+            touch-action: 150px;
+            color: #ffffff;
+            text-decoration: none;
+            line-height: 150px;
+
+        }
+
+        .nav .bj1:hover {
+            color: chocolate;
+        }
+
+        .nav .bj2:hover {
+            color: darkgreen;
+        }
+
+        .nav .bj3:hover {
+            color: darkorchid;
+        }
+
+        .nav .bj4:hover {
+            color: deepskyblue;
+
+        }
+
+        .nav .bj5:hover {
+            color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="name">吃饭睡觉薅狗头</h1>
+    <div class="nav">
+        <a href="#" class="bj1">哈士奇</a>
+        <a href="#" class="bj2">金毛</a>
+        <a href="#" class="bj3">阿拉斯加</a>
+        <a href="#" class="bj4">拉布拉多</a>
+        <a href="#" class="bj5">比熊</a>
+    </div>
+</body>
+
+</html>
